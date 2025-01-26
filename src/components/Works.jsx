@@ -1,5 +1,5 @@
 import React from "react";
-import Tilt from "react-tilt"; // @ts-ignore
+import Tilt from "react-parallax-tilt"; // @ts-ignore
 import { motion } from "framer-motion";
 
 import { styles } from "../styles";
