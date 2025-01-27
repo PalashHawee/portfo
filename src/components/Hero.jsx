@@ -1,6 +1,7 @@
 import { motion } from "framer-motion";
 import { styles } from "../styles";
-import { ComputersCanvas } from "./canvas";
+import { ComputersCanvas, EarthCanvas } from "./canvas";
+/// Make sure you have EarthCanvas imported
 
 const Hero = () => {
   return (
@@ -27,7 +28,15 @@ const Hero = () => {
         </div>
       </div>
 
-      <ComputersCanvas />
+      {/* Show EarthCanvas on mobile (below lg) */}
+      <div className="block lg:hidden absolute inset-0">
+        <EarthCanvas />
+      </div>
+
+      {/* Show ComputersCanvas on larger devices (lg and above) */}
+      <div className="hidden lg:block absolute inset-0">
+        <ComputersCanvas />
+      </div>
 
       {/* Responsive scrolling indicator */}
       <div className="absolute bottom-10 sm:bottom-32 w-full flex justify-center items-center">
