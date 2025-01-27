@@ -35,11 +35,11 @@ import reacctjs from "./reactjs.png";
 import bizsolve from "./bizsolve.png";
 import agrovez from "./agrovez.png";
 import diligence from "./diligence.png";
-import face from "./face.png";
+import take from "./take.png";
 
 export {
   diligence,
-  face,
+  take,
   agrovez,
   logo,
   reacctjs,

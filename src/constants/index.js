@@ -20,7 +20,7 @@ import {
   tesla,
   shopify,
   carrent,
-  face,
+  take,
   jobit,
   tripguide,
   python,
@@ -264,7 +264,7 @@ const projects = [
         color: "pink-text-gradient",
       },
     ],
-    image: face,
+    image: take,
     source_code_link:
       "https://github.com/PalashHawee/Face-Recognition-System?tab=readme-ov-file",
     weblink: "#",
