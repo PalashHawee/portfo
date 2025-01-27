@@ -29,10 +29,23 @@ import tesla from "./company/tesla.png";
 import carrent from "./carrent.png";
 import jobit from "./jobit.png";
 import tripguide from "./tripguide.png";
+import python from "./python.png";
+import reacctjs from "./reactjs.png";
+// import nodejs from "./nodejs.png";
+import bizsolve from "./bizsolve.png";
+import agrovez from "./agrovez.png";
+import diligence from "./diligence.png";
+import face from "./face.png";
 
 export {
+  diligence,
+  face,
+  agrovez,
   logo,
+  reacctjs,
+  bizsolve,
   backend,
+  python,
   creator,
   mobile,
   web,

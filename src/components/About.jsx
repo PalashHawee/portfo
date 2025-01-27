@@ -40,18 +40,30 @@ const About = () => {
     <>
       <motion.div variants={textVariant()}>
         <p className={styles.sectionSubText}>Introduction</p>
-        <h2 className={styles.sectionHeadText}>Overview.</h2>
+        <h2 className={styles.sectionHeadText}>Overview</h2>
       </motion.div>
 
       <motion.p
         variants={fadeIn("", "", 0.1, 1)}
         className="mt-4 text-secondary text-[17px] max-w-3xl leading-[30px]"
       >
-        I'm a skilled software developer with experience in TypeScript and
-        JavaScript, and expertise in frameworks like React, Node.js, and
-        Three.js. I'm a quick learner and collaborate closely with clients to
-        create efficient, scalable, and user-friendly solutions that solve
-        real-world problems. Let's work together to bring your ideas to life!
+        I am a passionate and highly skilled Software Engineer with expertise in
+        Node.js, React.js, MongoDB, and Python. With a strong foundation in Data
+        Structures and Algorithms, I develop scalable and efficient software
+        solutions tailored to meet dynamic business needs. My journey in
+        technology has been fueled by a deep interest in Data Science and
+        Machine Learning, enabling me to bridge the gap between software
+        development and intelligent systems. Whether building robust APIs with
+        Node.js, creating dynamic user interfaces with React.js, or managing
+        data-intensive applications with MongoDB, I deliver performance-driven
+        applications that exceed expectations. With a strong command over
+        Python, I specialize in implementing machine learning models and
+        leveraging data analytics to derive actionable insights. My knowledge of
+        algorithms ensures the optimization of processes for seamless user
+        experiences. I thrive in solving complex challenges, staying updated
+        with emerging technologies, and contributing to projects that make a
+        real-world impact. Let’s work together to turn ideas into innovative,
+        future-ready solutions.
       </motion.p>
 
       <div className="mt-20 flex flex-wrap gap-10">
